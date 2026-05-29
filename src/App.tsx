@@ -13,8 +13,8 @@ function App() {
   const [isCalendlyReady, setIsCalendlyReady] = useState(false)
   const BASE = import.meta.env.NEXT_PUBLIC_R2_PUBLIC_BASE_URL ||
     'https://pub-1724a984308b418f8dbf7e115755e995.r2.dev/web-assets'
-  const HORIZONTAL = `${BASE}/teaser-horizontal.mov`
-  const VERTICAL = `${BASE}/teaser-vertical.mov`
+  const HORIZONTAL = `${BASE}/teaser-horizontal-browser.mp4`
+  const VERTICAL = `${BASE}/teaser-vertical-browser.mp4`
 
   useEffect(() => {
     const existingScript = document.querySelector<HTMLScriptElement>(
